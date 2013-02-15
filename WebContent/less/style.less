@@ -1,0 +1,71 @@
+.zero-mp (@zero: 0) {
+  margin: @zero;
+  padding: @zero;
+}
+@navbarBackground: #6a6a6a;
+@white: #FFFFFF;
+
+.rounded-corners(@radius: 8px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+body {
+  background: #0d1424 url(images/body-bg.jpg) no-repeat center top;
+  font: .81em/150% Arial, Helvetica, sans-serif;
+  color: #666;
+}
+
+.site-title h1 {
+  color: @white;
+  font-weight: bold;
+  padding: 10px 10px;
+}
+
+.site-description {
+  font: italic 10px "Times New Roman", Times, serif;
+  color: @white;
+  top: 80px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.navbarsearching{
+  width: 140px;
+  background: @white;
+  border: none;
+  margin-top: 5px;
+  /* border radius */
+  .rounded-corners(5px);
+}
+/* Overwrite current navbar items */
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 10px 11px;
+  line-height: 19px;
+  color: @white;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+}
+
+// Active nav items
+.navbar .nav .active > a,
+.navbar .nav .active > a:hover {
+  color: @white;
+  text-decoration: none;
+  background-color: @navbarBackground;
+}
+
+.navbar-inner {
+  background-color: @navbarBackground; /* background color will be black for all browsers */
+  background-image: none;
+  background-repeat: no-repeat;
+}
+
+.whitebox { 
+  padding: 20px;
+  margin: 10px 10px 10px 10px;
+  background: @white;
+  .rounded-corners(10px);
+}

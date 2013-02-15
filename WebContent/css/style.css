@@ -1,0 +1,9 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+body{background:#0d1424 url(images/body-bg.jpg) no-repeat center top;font:0.81em/150% Arial,Helvetica,sans-serif;color:#666;}
+.site-title h1{color:#ffffff;font-weight:bold;padding:10px 10px;}
+.site-description{font:italic 10px "Times New Roman",Times,serif;color:#ffffff;top:80px;padding-top:10px;padding-left:10px;}
+.navbarsearching{width:140px;background:#ffffff;border:none;margin-top:5px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.navbar .nav>li>a{float:none;padding:10px 10px 11px;line-height:19px;color:#ffffff;text-decoration:none;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);}
+.navbar .nav .active>a,.navbar .nav .active>a:hover{color:#ffffff;text-decoration:none;background-color:#6a6a6a;}
+.navbar-inner{background-color:#6a6a6a;background-image:none;background-repeat:no-repeat;}
+.whitebox{padding:20px;margin:10px 10px 10px 10px;background:#ffffff;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
